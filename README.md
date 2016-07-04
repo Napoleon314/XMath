@@ -3,12 +3,12 @@ Modified DirectXMath for cross-platform compiling
 
 Tested on MSVC LinuxGCC OSXClang IOSClang AndroidGCC
 
-#Todo
+##Todo
 1. Completed column order matrix mathematics
 2. Intrinsics support(SSE4 AVX AVX2)
 3. The rest of files in DirectXMath
 
-#Sample predefines for including:
+##Sample predefines for including:
 
 ```cpp
 #if defined(BUILD_ARCH_ARM)

@@ -9,7 +9,8 @@ Tested on MSVC LinuxGCC OSXClang IOSClang AndroidGCC
 3. The rest of files in DirectXMath
 
 #Sample predefines for including:
-'''cpp
+
+```cpp
 #if defined(BUILD_ARCH_ARM)
 #	if defined(__ARM_NEON) && BUILD_INTRINSICS_LEVEL > 0
 #		define _XM_ARM_NEON_INTRINSICS_
@@ -37,4 +38,4 @@ Tested on MSVC LinuxGCC OSXClang IOSClang AndroidGCC
 #endif
 //#define _XM_NO_INTRINSICS_
 #include "XMath/XMath.h"
-'''
+```

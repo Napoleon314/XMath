@@ -4,9 +4,7 @@ Modified DirectXMath for cross-platform compiling
 Tested on MSVC LinuxGCC OSXClang IOSClang AndroidGCC
 
 ##Todo
-1. Completed column order matrix mathematics
-2. Intrinsics support(SSE4 AVX AVX2)
-3. The rest of files in DirectXMath
+Completed column order matrix mathematics
 
 ##Sample predefines for including:
 
